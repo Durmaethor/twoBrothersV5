@@ -22,7 +22,11 @@ h1, h2, h3,
 }
 
 
-/* Main Navigation */
+/* ==================================================
+
+        Main Navigation 
+
+================================================== */
 
 .navi {
     position: fixed;
@@ -50,7 +54,44 @@ h1, h2, h3,
     margin-top: 10px;
 }
 
-/* Carousel CSS */
+
+.FB-Logo {
+	width: 20px;
+}
+
+.YT-Logo {
+        width: 25px;
+}
+
+
+/* =============================================
+
+        Link Styles
+
+=============================================== */
+
+a:link {
+	color: #000;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #000;
+}
+
+a:hover {
+	color: #767575;
+}
+
+a:active {
+	color: #000;
+}
+
+/* =============================================
+
+        Carousel CSS
+
+=============================================== */
 
 #mycarousel {
     padding-top: 50px;
