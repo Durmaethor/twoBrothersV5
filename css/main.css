@@ -21,7 +21,6 @@ h1, h2, h3,
 		font-family: 'Frijole', cursive, Helvetica, Arial, sans-serif;
 }
 
-
 /* ==================================================
 
         Main Navigation 
@@ -32,28 +31,28 @@ h1, h2, h3,
     position: fixed;
     z-index: 1;
     width: 100%;
+    height: 150px;
 }
 
 .navi ul {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
     list-style: none;
     padding: 0;
     margin: 0;
     position: relative;
-    height: 50px;
     width: 100%;
-    color: white;
     background: #D6FF75;
     box-shadow: 0 1px 4px rgba(0,0,0,.4);
 }
 
 .navi ul li {
-    padding: 5px;
+    padding: 20px;
     margin-top: 10px;
+    font-size: 12px;
 }
-
 
 .FB-Logo {
 	width: 20px;
@@ -62,7 +61,6 @@ h1, h2, h3,
 .YT-Logo {
         width: 25px;
 }
-
 
 /* =============================================
 
@@ -87,36 +85,107 @@ a:active {
 	color: #000;
 }
 
-/* =============================================
+/* ***************************************************************************
 
-        Carousel CSS
+        MEDIA QUERIES
 
-=============================================== */
+*************************************************************************** */
 
-#mycarousel {
-    padding-top: 50px;
+@media (min-width: 450px) {
+
+    /* ==================================================
+
+            Main Navigation 
+
+    ================================================== */
+
+    .navi ul {
+        height: 50px;
+    }
+
+    .navi ul li {
+        padding: 5px;
+        margin-top: 10px;
+    }
+
+
+    .FB-Logo {
+        width: 20px;
+    }
+
+    .YT-Logo {
+            width: 25px;
+    }
+
 }
 
-h3 {
-  display: inline-block;
-  padding: 10px;
-  background: #B9121B;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-}
+/* ===============================================================
 
-.full-screen {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
+    Media 1440 x 900 - Carousel
 
-/* .carousel-caption {
-    padding-bottom: 250px;
-    font-size: 48px;
-    font-family: 'Press Start 2P', cursive;
-    text-shadow: 2px 2px 2px #2D2D2D
-} */
+=============================================================== */
+
+@media (min-width: 1440px) {
+
+        /* =============================================
+
+                Carousel CSS
+
+        =============================================== */
+
+        #mycarousel {
+            padding-top: 50px;
+        }
+
+        h3 {
+        display: inline-block;
+        padding: 10px;
+        background: #B9121B;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        }
+
+        .full-screen {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        }
+
+        /* .carousel-caption {
+            padding-bottom: 250px;
+            font-size: 48px;
+            font-family: 'Press Start 2P', cursive;
+            text-shadow: 2px 2px 2px #2D2D2D
+        } */
+
+        .slide-wrapper {
+            position: relative;
+        }
+
+        .over-text {
+            position: absolute;
+            text-align: center;
+            left: 25%;
+            right: 25%;
+            top: 500px;
+        }
+
+        .title-h1 {
+            font-size: 32px;
+            text-shadow:    0 1px 1px #bbb, 
+                            0 2px 0 #999, 
+                            0 3px 0 #888, 
+                            0 4px 0 #777, 
+                            0 5px 0 #666, 
+                            0 6px 0 #555, 
+                            0 7px 0 #444, 
+                            0 8px 0 #333, 
+                            0 9px 7px #302314;
+            
+
+        }
+
+}
 
 
 
