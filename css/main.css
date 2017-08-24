@@ -12,13 +12,37 @@ body {
 }
 
 img {
-    margin: 0;
+    margin: auto;
     max-width: 100%;
 }
 
 h1, h2, h3,
 .navi {
 		font-family: 'Frijole', cursive, Helvetica, Arial, sans-serif;
+}
+
+
+/* =============================================
+
+        Link Styles
+
+=============================================== */
+
+a:link {
+	color: #000;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #000;
+}
+
+a:hover {
+	color: #767575;
+}
+
+a:active {
+	color: #000;
 }
 
 /* ==================================================
@@ -62,28 +86,6 @@ h1, h2, h3,
         width: 25px;
 }
 
-/* =============================================
-
-        Link Styles
-
-=============================================== */
-
-a:link {
-	color: #000;
-	text-decoration: none;
-}
-
-a:visited {
-	color: #000;
-}
-
-a:hover {
-	color: #767575;
-}
-
-a:active {
-	color: #000;
-}
 
 /* ***************************************************************************
 
@@ -121,11 +123,13 @@ a:active {
 
 /* ===============================================================
 
-    Media 1440 x 900 - Carousel
+    Media 1365 x 768 - Carousel
 
 =============================================================== */
 
-@media (min-width: 1440px) {
+@media (min-width: 1360px) {
+
+
 
         /* =============================================
 
@@ -167,7 +171,7 @@ a:active {
             text-align: center;
             left: 25%;
             right: 25%;
-            top: 500px;
+            top: 100px;
         }
 
         .title-h1 {
