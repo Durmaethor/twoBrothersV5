@@ -12,8 +12,9 @@ body {
 }
 
 img {
-    margin: auto;
+    margin: 0 auto;
     max-width: 100%;
+    height: auto;
 }
 
 h1, h2, h3,
@@ -86,6 +87,15 @@ a:active {
         width: 25px;
 }
 
+/* =========== Small Screens Header ================ */
+
+.small-screen-header {
+	padding-top: 150px;
+	height: 500px;
+    background: #fff url('../images/galleryImages/avalancheFront.jpg') no-repeat center;
+    background-size: cover;
+    margin: 0;
+}
 
 /* ***************************************************************************
 
@@ -109,7 +119,6 @@ a:active {
         padding: 5px;
         margin-top: 10px;
     }
-
 
     .FB-Logo {
         width: 20px;
@@ -169,13 +178,12 @@ a:active {
         .over-text {
             position: absolute;
             text-align: center;
-            left: 25%;
-            right: 25%;
-            top: 55%;
+            left: 80%;
+            top: 10%;
         }
 
         .title-text {
-            font-size: 36px;
+            font-size: 24px;
             font-family: 'Nova Square', cursive, sans-serif;
             text-transform: uppercase;
             color: #DFF900;
@@ -183,7 +191,7 @@ a:active {
         }
 
         .logo {
-            width: 250px;
+            width: 175px;
         }
 
 }
