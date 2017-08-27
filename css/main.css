@@ -90,11 +90,23 @@ a:active {
 /* =========== Small Screens Header ================ */
 
 .small-screen-header {
-	padding-top: 150px;
-	height: 500px;
-    background: #fff url('../images/galleryImages/avalancheFront.jpg') no-repeat center;
-    background-size: cover;
+    width: 100%;
     margin: 0;
+}
+
+.small-screen-header-img {
+    padding-top: 145px;
+    position: relative;
+}
+
+.small-screen-h1,
+.small-screen-title {
+    position: absolute;
+    left: 33%;
+    right: 33%;
+    top: 20%;
+    font-size: 12px;
+    text-align: center;
 }
 
 /* ***************************************************************************
@@ -146,9 +158,9 @@ a:active {
 
         =============================================== */
 
-        #mycarousel {
+        /* #mycarousel {
             padding-top: 50px;
-        }
+        } */
 
         h3 {
         display: inline-block;
