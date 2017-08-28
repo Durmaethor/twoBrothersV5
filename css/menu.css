@@ -11,8 +11,8 @@ a {
 /* OPEN / CLOSE BTNS */
 .btn-menu {
     position: fixed;
-    top: 6px;
-    left: 20px;
+    top: 30px;
+    left: 40px;
     z-index: 999;
     display: inline;
     font-size: 32px;
