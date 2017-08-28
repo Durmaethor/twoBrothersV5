@@ -48,44 +48,11 @@ a:active {
 
 /* ==================================================
 
-        Main Navigation 
+        Main Navigation (SEE MENU.CSS FILE) 
 
 ================================================== */
 
-.navi {
-    position: fixed;
-    z-index: 1;
-    width: 100%;
-    height: 150px;
-}
 
-.navi ul {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    position: relative;
-    width: 100%;
-    background: #DFF900;
-    box-shadow: 0 1px 4px rgba(0,0,0,.4);
-}
-
-.navi ul li {
-    padding: 20px;
-    margin-top: 10px;
-    font-size: 12px;
-}
-
-.FB-Logo {
-	width: 20px;
-}
-
-.YT-Logo {
-        width: 25px;
-}
 
 /* =========== Small Screens Header ================ */
 
@@ -95,7 +62,7 @@ a:active {
 }
 
 .small-screen-header-img {
-    padding-top: 145px;
+    padding-top: 0;
     position: relative;
 }
 

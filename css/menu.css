@@ -10,7 +10,7 @@ a {
 } */
 /* OPEN / CLOSE BTNS */
 .btn-menu {
-    position: absolute;
+    position: fixed;
     top: 6px;
     left: 20px;
     z-index: 999;
