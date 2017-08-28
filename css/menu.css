@@ -138,8 +138,12 @@ a {
 }
 
 @media screen and (min-width: 1900px) {
-    
 
+    .overlay .menu ul li a {
+        font-size: 28px;
+    }
     
+    .overlay .menu ul ul li a {
+        font-size: 20px;
     }
 
