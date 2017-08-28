@@ -11,15 +11,15 @@ a {
 /* OPEN / CLOSE BTNS */
 .btn-menu {
     position: fixed;
-    top: 30px;
-    left: 40px;
+    top: 10px;
+    left: 20px;
     z-index: 999;
     display: inline;
     font-size: 32px;
 }
 .bar1, .bar2, .bar3 {
-    width: 35px;
-    height: 5px;
+    width: 25px;
+    height: 3px;
     background-color: #DFF900;
     margin: 6px 0;
     transition: 0.4s;
@@ -73,12 +73,11 @@ a {
     width: 25%;
     list-style: none;
     text-align: center;
-    text-transform: uppercase;
 }
 .overlay .menu ul li a {
     color: #DFF900;
-    font-weight: bold;
     font-size: 20px;
+    font-family: 'Frijole', cursive, Helvetica, Arial, sans-serif;
 }
 .overlay .menu ul ul {
     margin-top: 50px;
@@ -93,13 +92,14 @@ a {
 .overlay .menu ul ul li a {
     color: #fff;
     text-transform: capitalize;
-    font-weight: bold;
     font-size: 14px;
+    font-family: 'Nova Square', cursive, sans-serif;
 }
 .overlay .menu ul ul li a:hover {
     color: #DFF900;
 }
-/* RESPONSIVE */
+/* RESPONSIVE MENU BREAKOUT */
+
 @media screen and (max-width: 768px) {
     .overlay .menu ul li {
         float: none;
@@ -113,8 +113,27 @@ a {
     .overlay .menu ul ul {
         margin-top: 20px;
     }
-    .menu-btn {
-        right: 25px;
+}
+
+/* RESPONSIVE OVERALL */
+
+@media screen and (min-width: 1000px) {
+
+    .btn-menu {
+        position: fixed;
+        top: 30px;
+        left: 40px;
+        z-index: 999;
+        display: inline;
+        font-size: 32px;
     }
+    .bar1, .bar2, .bar3 {
+        width: 35px;
+        height: 5px;
+        background-color: #DFF900;
+        margin: 6px 0;
+        transition: 0.4s;
+    }
+
 }
 

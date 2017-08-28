@@ -52,8 +52,6 @@ a:active {
 
 ================================================== */
 
-
-
 /* =========== Small Screens Header ================ */
 
 .small-screen-header {
@@ -66,14 +64,23 @@ a:active {
     position: relative;
 }
 
-.small-screen-h1,
-.small-screen-title {
+.small-screen-branding {
     position: absolute;
-    left: 33%;
-    right: 33%;
-    top: 20%;
-    font-size: 12px;
+    left: 5%;
+    right: 5%;
+    top: 23%;
     text-align: center;
+}
+
+.small-screen-h1 {
+    font-size: 12px;
+    color: #DFF900;
+    margin: 0;
+}
+
+.small-screen-title {
+    color: #fff;
+    font-size: 10px;
 }
 
 /* ***************************************************************************
@@ -84,30 +91,82 @@ a:active {
 
 @media (min-width: 450px) {
 
-    /* ==================================================
-
-            Main Navigation 
-
-    ================================================== */
-
-    .navi ul {
-        height: 50px;
-    }
-
-    .navi ul li {
-        padding: 5px;
-        margin-top: 10px;
-    }
-
-    .FB-Logo {
-        width: 20px;
-    }
-
-    .YT-Logo {
-            width: 25px;
+    .small-screen-branding {
+        left: 5%;
+        right: 5%;
+        top: 60%;
     }
 
 }
+
+@media (min-width: 550px) {
+    
+    .small-screen-branding{
+        left: 10%;
+        right: 10%;
+        top: 70%;
+    }
+
+    .small-screen-h1 {
+        font-size: 18px;
+    }
+
+    .small-screen-title {
+        font-size: 14px;
+    }
+
+}
+
+@media (min-width: 660px) {
+    
+    .small-screen-branding{
+        left: 10%;
+        right: 10%;
+        top: 70%;
+    }
+
+    .small-screen-h1 {
+        font-size: 18px;
+        margin: 5px;
+    }
+
+    .small-screen-title {
+        font-size: 14px;
+    }
+
+}
+
+@media (min-width: 750px) {
+
+    .small-screen-branding {
+        left: 10%;
+        right: 10%;
+        top: 30%;
+    }
+
+    .small-screen-h1 {
+        font-size: 24px;
+    }
+
+    .small-screen-title {
+        font-size: 18px;
+    }
+
+}
+
+@media (min-width: 1000px) {
+    
+    .small-screen-branding {
+            left: 10%;
+            right: 10%;
+            top: 55%;
+        }
+
+        .small-screen-h1 {
+            font-size: 32px;
+        }
+    
+    }
 
 /* ===============================================================
 
