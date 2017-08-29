@@ -17,12 +17,21 @@ img {
     height: auto;
 }
 
-h1, h2, h3,
-.navi {
-		font-family: 'Frijole', cursive, Helvetica, Arial, sans-serif;
+h1, h2 {
+        font-family: 'Frijole', cursive, Helvetica, Arial, sans-serif;
+        margin: 0;
 }
 
-p {
+h2 {
+    font-size: 12px;
+}
+
+h3 {
+    font-size: 10px;
+    margin: 0;
+}
+
+p, h3 {
     font-family: 'Nova Square', cursive, sans-serif;
 }
 
@@ -79,13 +88,12 @@ a:active {
 
 .small-screen-h1 {
     font-size: 12px;
-    color: #DFF900;
+    color: #fff;
     margin: 0;
-    text-shadow: 2px 1px 1px rgb(253, 249, 249);
 }
 
 .small-screen-title {
-    color: #fff;
+    color: #DFF900;
     font-size: 10px;
 }
 
@@ -102,10 +110,176 @@ a:active {
 
 .intro-text {
     width: 90%;
-    margin: 0 auto;
+    margin: 20px auto;
     padding: 10px;
     text-align: center;
 }
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++
+
+    About Content
+
++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.about-section {
+    width: 100%;
+    height: 200px;
+    margin: 0;
+    background-color: #DFF900;
+    text-align: center;
+}
+
+.about-h2 {
+    padding-top: 15px;
+}
+
+.about-text {
+    margin: 0;
+    padding: 10px;
+}
+
+.about-box, .contact-box {
+    height: 50px;
+    background-color: white;
+    margin: 0;
+}
+
+.about-h3, .contact-h3 {
+    padding-top: 20px;
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++
+
+    Services Content
+
++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.services-section {
+    width: 100%;
+    height: 200px;
+    margin: 0;
+    background-color: #000;
+    text-align: center;
+}
+
+.services-h2 {
+    padding-top: 15px;
+    color: #DFF900;
+}
+
+.services-text {
+    color: white;
+    margin: 0;
+    padding: 10px;
+}
+
+.CR-box, .FAQ-box {
+    height: 50px;
+    background-color: white;
+    margin: 0;
+}
+
+.CR-h3, .FAQ-h3 {
+    padding-top: 20px;
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++
+
+    Adventures Content
+
++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.adventures-section {
+    width: 100%;
+    height: 200px;
+    margin: 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.adventures-h2 {
+    padding-top: 15px;
+}
+
+.adventures-text {
+    margin: 0;
+    padding: 10px;
+}
+
+.gallery-box, .blog-box {
+    height: 50px;
+    background-color: #DFF900;
+    margin: 0;
+}
+
+.gallery-h3, .blog-h3 {
+    padding-top: 20px;
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++
+
+    Social Content
+
++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.social-section {
+    width: 100%;
+    height: 150px;
+    margin: 0;
+    background-color: #000;
+    text-align: center;
+}
+
+.social-h2 {
+    padding-top: 15px;
+    color: #DFF900;
+}
+
+.social-text {
+    color: white;
+    margin: 0;
+    padding: 10px;
+}
+
+.social-box {
+    height: 50px;
+    background-color: #DFF900;
+    margin: 0;
+}
+
+.social-logos {
+    padding: 12px;
+}
+
+.FB-Logo {
+    width: 20px;
+    margin: 0 5px;
+}
+
+.YT-Logo {
+    width: 25px;
+    margin: 0 5px;
+}
+
+
+/* FOOTER ------------------------ */
+
+footer {
+    clear: both;
+    height: 50px;
+    background-color: #2D2D2D;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-text {
+    color: #fff;
+    font-size: 12px;
+    padding: 15px;
+    margin: 0;
+}
+
 
 /* ***************************************************************************
 
@@ -208,15 +382,6 @@ a:active {
 
         =============================================== */
 
-
-        h3 {
-        display: inline-block;
-        padding: 10px;
-        background: #B9121B;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-        }
-
         .full-screen {
         background-size: cover;
         background-position: center;
@@ -279,24 +444,4 @@ a:active {
 
 }
 
-
-
-
-/* FOOTER ------------------------ */
-
-footer {
-    clear: both;
-    height: 100px;
-    background-color: #2D2D2D;
-    text-align: center;
-    padding: 0;
-    margin: 0;
-}
-
-.footer-text {
-    color: #fff;
-    font-size: 18px;
-    padding: 34px;
-    margin: 0;
-}
 
