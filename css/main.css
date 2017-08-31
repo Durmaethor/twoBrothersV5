@@ -369,7 +369,7 @@ footer {
 
 @media (min-width: 550px) {
     
-    .small-screen-branding{
+    .small-screen-branding {
         left: 10%;
         right: 10%;
         top: 70%;
@@ -381,6 +381,10 @@ footer {
 
     .small-screen-title {
         font-size: 14px;
+    }
+
+    .about-section {
+        height: 198px;
     }
 
 }
