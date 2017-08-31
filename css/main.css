@@ -127,7 +127,7 @@ a:active {
 
 .about-section {
     width: 100%;
-    height: 255px;
+    height: 242px;
     margin: 0;
     background-color: #DFF900;
     text-align: center;
@@ -140,7 +140,7 @@ a:active {
 
 .about-text {
     margin: 0;
-    padding: 10px;
+    padding: 10px 10px 20px;
     font-size: 16px;
 }
 
@@ -180,7 +180,7 @@ a:active {
 
 .services-section {
     width: 100%;
-    height: 200px;
+    height: 215px;
     margin: 0;
     background-color: #000;
     text-align: center;
@@ -195,7 +195,7 @@ a:active {
 .services-text {
     color: white;
     margin: 0;
-    padding: 10px;
+    padding: 10px 10px 20px;
     font-size: 16px;
 }
 
@@ -248,7 +248,7 @@ a:active {
 
 .adventures-text {
     margin: 0;
-    padding: 10px;
+    padding: 10px 10px 20px;
     font-size: 16px;
 }
 
@@ -359,6 +359,14 @@ footer {
 
 }
 
+@media (min-width: 400px) {
+
+    .services-section {
+        height: 198px;
+    }
+
+}
+
 @media (min-width: 550px) {
     
     .small-screen-branding{
@@ -392,6 +400,18 @@ footer {
 
     .small-screen-title {
         font-size: 14px;
+    }
+
+    .about-section {
+        height: 198px;
+    }
+
+}
+
+@media (min-width: 700px) {
+
+    .services-section {
+        height: 175px;
     }
 
 }
