@@ -189,12 +189,14 @@ a:active {
 .services-h2 {
     padding-top: 15px;
     color: #DFF900;
+    font-size: 18px;
 }
 
 .services-text {
     color: white;
     margin: 0;
     padding: 10px;
+    font-size: 16px;
 }
 
 .CR-box, .FAQ-box {
@@ -206,7 +208,7 @@ a:active {
 
 .CR-h3, .FAQ-h3 {
     padding-top: 45px;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .CR-box {
@@ -241,11 +243,13 @@ a:active {
 
 .adventures-h2 {
     padding-top: 15px;
+    font-size: 18px;
 }
 
 .adventures-text {
     margin: 0;
     padding: 10px;
+    font-size: 16px;
 }
 
 .gallery-box, .blog-box {
@@ -280,7 +284,7 @@ a:active {
 
 .social-section {
     width: 100%;
-    height: 150px;
+    height: 200px;
     margin: 0;
     background-color: #000;
     text-align: center;
@@ -289,32 +293,34 @@ a:active {
 .social-h2 {
     padding-top: 15px;
     color: #DFF900;
+    font-size: 18px;
 }
 
 .social-text {
     color: white;
     margin: 0;
     padding: 10px;
+    font-size: 16px;
 }
 
 .social-box {
-    height: 50px;
+    height: 100px;
     background-color: #DFF900;
     margin: 0;
 }
 
 .social-logos {
-    padding: 12px;
+    padding: 25px;
 }
 
 .FB-Logo {
-    width: 20px;
-    margin: 0 5px;
+    width: 40px;
+    margin: 0 10px;
 }
 
 .YT-Logo {
-    width: 25px;
-    margin: 0 5px;
+    width: 50px;
+    margin: 0 10px;
 }
 
 
@@ -343,12 +349,12 @@ footer {
 
 *************************************************************************** */
 
-@media (min-width: 450px) {
+@media (min-width: 350px) {
 
     .small-screen-branding {
         left: 5%;
         right: 5%;
-        top: 60%;
+        top: 20%;
     }
 
 }
