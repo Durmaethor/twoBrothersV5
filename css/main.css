@@ -521,6 +521,114 @@ footer {
             padding: 45px 0;
         }
 
+        /* ****************************** 
+        
+            BIG SCREEN SECTION LAYOUT
+        
+        ****************************** */
+
+        /* ABOUT */
+
+        .about-img, .about-section {
+            float: left;
+            width: 50%;
+            height: 383px;
+        }
+
+        .about-h2 {
+            font-size: 24px;
+        }
+
+        .about-text {
+            font-size: 18px;
+            padding: 10px 25px 25px;
+        }
+
+        .about-box, .contact-box {
+            height: 200px;
+        }
+
+        .about-h3, .contact-h3 {
+            font-size: 18px;
+            padding-top: 95px;
+        }
+
+        /* SERVICES */
+
+        .services-img, .services-section {
+            float: right;
+            width: 50%;
+            height: 363px;
+        }
+
+        .services-h2 {
+            font-size: 24px;
+        }
+
+        .services-text {
+            font-size: 18px;
+            padding: 10px 25px 25px;
+        }
+
+        .CR-box, .FAQ-box {
+            height: 200px;
+        }
+
+        .CR-h3, .FAQ-h3 {
+            font-size: 18px;
+            padding-top: 95px;
+        }
+
+        /* ADVENTURES */
+
+        .adv-img, .adventures-section {
+            float: left;
+            width: 50%;
+            height: 362px;
+        }
+
+        .adventures-h2 {
+            font-size: 24px;
+        }
+
+        .adventures-text {
+            font-size: 18px;
+            padding: 10px 25px 25px;
+        }
+
+        .gallery-box, .blog-box {
+            height: 200px;
+        }
+
+        .gallery-h3, .blog-h3 {
+            font-size: 18px;
+            padding-top: 95px;
+        }
+
+        /* SOCIAL */
+
+        .social-section {
+            height: 250px;
+        }
+
+        .social-h2 {
+            font-size: 24px;
+            padding-top: 20px;
+        }
+
+        .social-text {
+            font-size: 18px;
+            padding: 10px 25px 25px;
+        }
+
+}
+
+@media (min-width: 1400px) {
+
+    .adventures-section, .adv-img {
+        height: 373px;
+    }
+
 }
 
 /* ===============================================================
