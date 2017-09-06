@@ -235,7 +235,7 @@ a:active {
 
 .adventures-section {
     width: 100%;
-    height: 200px;
+    height: 175px;
     margin: 0;
     background-color: #fff;
     text-align: center;
@@ -283,6 +283,7 @@ a:active {
 +++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
 .social-section {
+    clear: both;
     width: 100%;
     height: 200px;
     margin: 0;
@@ -454,13 +455,35 @@ footer {
 
 /* ===============================================================
 
-    Media 1365 x 768 - Carousel
+    Media 1200 x 768 - Carousel
 
 =============================================================== */
 
+@media (min-width: 1200px) {
+
+    .over-text {
+        position: absolute;
+        text-align: center;
+        left: 80%;
+        top: 5%;
+    }
+
+    .title-text {
+        font-size: 20px;
+        font-family: 'Nova Square', cursive, sans-serif;
+        text-transform: uppercase;
+        color: #DFF900;
+        text-shadow: 3px 3px 2px rgba(30, 30, 30, 1);
+    }
+
+    .logo {
+        width: 150px;
+    }
+
+
+}
+
 @media (min-width: 1360px) {
-
-
 
         /* =============================================
 
@@ -478,19 +501,10 @@ footer {
             position: relative;
         }
 
-        .over-text {
-            position: absolute;
-            text-align: center;
-            left: 80%;
-            top: 5%;
-        }
+        /********* OVER-TEXT ******************* */
 
         .title-text {
             font-size: 24px;
-            font-family: 'Nova Square', cursive, sans-serif;
-            text-transform: uppercase;
-            color: #DFF900;
-            text-shadow: 3px 3px 2px rgba(30, 30, 30, 1);
         }
 
         .logo {
@@ -498,12 +512,13 @@ footer {
         }
 
         .intro-section {
-            height: 200px;
+            height: 250px;
+            margin: 0;
         }
 
         .intro-text {
-            font-size: 20px;
-            padding: 70px 0;
+            font-size: 24px;
+            padding: 45px 0;
         }
 
 }
