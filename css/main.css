@@ -334,6 +334,20 @@ a:active {
     margin: 0 10px;
 }
 
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+    ABOUT US PAGE
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+.about-us-h1 {
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    font-size: 24px;
+    color: #DFF900;
+}
+
 
 /* FOOTER ------------------------ */
 
@@ -635,9 +649,7 @@ footer {
 
 @media (min-width: 1400px) {
 
-    .adventures-section, .adv-img {
-        height: 373px;
-    }
+
 
 }
 
@@ -660,6 +672,37 @@ footer {
     .logo {
         width: 250px;
     }
+
+    .about-img, 
+    .about-section, 
+    .services-img, 
+    .services-section,
+    .adv-img, 
+    .adventures-section {
+        height: 500px;
+    }
+
+    .about-box,
+    .contact-box {
+        height: 330px;
+    }
+
+    .CR-box, 
+    .FAQ-box, 
+    .gallery-box, 
+    .blog-box {
+        height: 350px;
+    }
+
+    .about-h3,
+    .contact-h3,
+    .CR-h3,
+    .FAQ-h3,
+    .gallery-h3,
+    .blog-h3 {
+        padding: 155px;
+    }
+
 
 }
 
