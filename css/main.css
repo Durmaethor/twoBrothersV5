@@ -340,22 +340,29 @@ a:active {
 
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
 
-.about-us-h1 {
-    position: absolute;
-    top: 22%;
-    left: 28%;
-    font-size: 24px;
-    color: #DFF900;
+.about-us-header {
+    width: 100%;
+    height: 200px;
+    background: url(../images/avalancheSide.JPG) no-repeat center;
+    background-size: cover;
 }
 
-.about-us-content {
+.about-us-section {
+    background-color: black;
     text-align: center;
+}
+
+.about-us-h1 {
+    font-size: 24px;
+    color: #DFF900;
+    padding-top: 20px;
 }
 
 .about-intro {
     width: 90%;
     margin: 0 auto;
     padding: 20px 5px;
+    color: white;
 }
 
 
