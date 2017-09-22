@@ -342,10 +342,20 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
 
 .about-us-h1 {
     position: absolute;
-    top: 15%;
-    left: 25%;
+    top: 22%;
+    left: 28%;
     font-size: 24px;
     color: #DFF900;
+}
+
+.about-us-content {
+    text-align: center;
+}
+
+.about-intro {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 5px;
 }
 
 
