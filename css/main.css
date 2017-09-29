@@ -437,6 +437,53 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
 
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
 
+.rates-header {
+    width: 100%;
+    height: 200px;
+    background: url(../images/lakeClean.JPG) no-repeat center;
+    background-size: cover;
+}
+
+.faq-h1,
+.rates-h1 {
+    font-size: 24px;
+    color: #DFF900;
+    padding-top: 20px;
+    text-shadow: 2px 1px 1px rgba(30, 30, 30, 1);
+}
+
+.rates-section {
+    text-align: center;
+    background-color: black;
+    height: 300px;
+}
+
+.rates-intro {
+    color: white;
+}
+
+.rates-list {
+    color: white;
+}
+
+.FAQ-header {
+    width: 100%;
+    height: 200px;
+    background: url(../images/IMG_1699.JPG) no-repeat center;
+    background-size: cover;
+}
+
+#faq-section {
+    text-align: center;
+    height: 150px;
+}
+
+.FAQ-bottom-img {
+    width: 100%;
+    height: 200px;
+    background: url(../images/IMG_1768.JPG) no-repeat center;
+    background-size: cover;
+}
 
 
 
