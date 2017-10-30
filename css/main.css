@@ -389,7 +389,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
     width: 90%;
     margin: 0 auto;
     padding: 20px 5px;
-    color: white;
+    color: #fff;
 }
 
 .ryan-about-text,
@@ -398,6 +398,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
     margin: 0 auto;
     padding: 20px 5px;
     color: #fff;
+    background-color: #000;
 }
 
 .contact-us-header {
@@ -550,6 +551,12 @@ footer {
         height: 198px;
     }
 
+    .about-us-header,
+    .contact-us-header,
+    .about-page-bottom-image {
+        height: 400px;
+    }
+
 }
 
 @media (min-width: 660px) {
@@ -612,6 +619,48 @@ footer {
     .small-screen-h1 {
             font-size: 32px;
         }
+
+    .about-intro {
+        font-size: 18px;
+    }
+
+    .ryan-box {
+        height: 461px;
+    }
+
+    .ryan-family-img {
+        float: left;
+        width: 60%;
+    }
+
+    .ryan-about-text {
+        float: right;
+        width: 40%;
+        padding: 10px 50px;
+        font-size: 18px;
+        line-height: 2;
+    }
+
+    .justin-box {
+        height: 461px;
+    }
+
+    .justin-family-img {
+        float: right;
+        width: 60%;
+    }
+
+    .justin-about-text {
+        float: left;
+        width: 40%;
+        padding: 20px 50px;
+        font-size: 15px;
+        line-height: 2;
+    }
+
+    .contact-us-header {
+        clear: both;
+    }
     
     }
 
@@ -743,7 +792,7 @@ footer {
 
         /* ADVENTURES */
 
-        .adv-img, #adventures-section {
+        /* .adv-img, #adventures-section {
             float: left;
             width: 50%;
             height: 375px;
@@ -765,7 +814,7 @@ footer {
         .gallery-h3, .blog-h3 {
             font-size: 18px;
             padding-top: 95px;
-        }
+        } */
 
         /* SOCIAL */
 
@@ -781,6 +830,15 @@ footer {
         .social-text {
             font-size: 18px;
             padding: 10px 25px 25px;
+        }
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+        ABOUT PAGE
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */ 
+
+        .ryan-box,
+        .justin-box {
+            height: 615px;
         }
 
 }
