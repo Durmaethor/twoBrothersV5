@@ -838,9 +838,18 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
 
         .about-us-header {
             width: 100%;
-            height: 800px;
+            height: 700px;
             background: url(../images/avalancheSide.JPG)  fixed no-repeat center;
             background-size: cover; 
+        }
+
+        .about-us-h1 {
+            font-size: 36px;
+        }
+
+        .about-intro {
+            font-size: 20px;
+            padding: 25px 5px 50px;
         }
 
         .ryan-box,
@@ -848,11 +857,63 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
             height: 615px;
         }
 
+        .ryan-about-text {
+            font-size: 20px;
+            padding: 100px 40px;
+        }
+
+        .justin-about-text {
+            font-size: 18px;
+            padding: 90px 40px;
+        }
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+        CONTACT
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+
+        .contact-us-header {
+            width: 100%;
+            height: 600px;
+            background: url(../images/IMG_1457.JPG) fixed no-repeat center;
+            background-size: cover;
+        }
+
+        #contact-us-section {
+            height: 500px;
+        }
+
+        .contact-us-h1 {
+            font-size: 36px;
+        }
+
+        .contact-intro {
+            font-size: 24px;
+        }
+
+        .contact-info {
+            font-size: 24px;
+            padding: 50px 10px;
+        }
+
+        .contact-info li {
+            padding: 20px;
+        }
+
+        .about-page-bottom-image {
+            width: 100%;
+            height: 800px;
+            background: url(../images/IMG_1456.JPG) fixed no-repeat center;
+            background-size: cover;
+        }
+
 }
 
 @media (min-width: 1400px) {
 
-
+    .ryan-box,
+    .justin-box {
+        height: 648px;
+    }
 
 }
 
