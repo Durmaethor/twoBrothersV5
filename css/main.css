@@ -836,6 +836,13 @@ footer {
         ABOUT PAGE
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */ 
 
+        .about-us-header {
+            width: 100%;
+            height: 800px;
+            background: url(../images/avalancheSide.JPG)  fixed no-repeat center;
+            background-size: cover; 
+        }
+
         .ryan-box,
         .justin-box {
             height: 615px;
