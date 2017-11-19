@@ -957,6 +957,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
         .faq-h1,
         .rates-h1 {
             font-size: 32px;
+            padding: 20px 10px;
         }
 
         .FAQ-header {
@@ -964,6 +965,11 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
             height: 800px;
             background: url(../images/IMG_1699.JPG) fixed no-repeat center;
             background-size: cover;
+        }
+
+          {
+            float: left;
+            width: 50%;
         }
 
         .FAQ-bottom-img {
