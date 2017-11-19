@@ -954,6 +954,11 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
             background-size: cover;
         }
 
+        .rates-h1 {
+            font-size: 36px;
+            padding: 20px 10px;
+        }
+
         .rates-section {
             height: 500px;
             padding: 50px 10px;
@@ -972,10 +977,9 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
             padding: 10px;
         }
 
-        .faq-h1,
-        .rates-h1 {
+        .faq-h1 {
             font-size: 36px;
-            padding: 20px 10px;
+            padding: 50px 10px;
         }
 
         .FAQ-header {
@@ -987,10 +991,15 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
 
         .faq-intro {
             font-size: 24px;
+            padding-bottom: 50px;
         }
         .faq, 
         .hover-text {
             font-size: 18px;
+        }
+
+        .hover-text {
+            padding: 20px 30px;
         }
 
         .faq-question-box.one, .three, .five, .seven  {
