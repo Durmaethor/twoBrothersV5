@@ -954,9 +954,27 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
             background-size: cover;
         }
 
+        .rates-section {
+            height: 500px;
+            padding: 50px 10px;
+        }
+
+        .rates-intro {
+            font-size: 24px;
+        }
+
+        .rates-list {
+            font-size: 24px;
+            padding: 25px 10px;
+        }
+
+        .rates-list li {
+            padding: 10px;
+        }
+
         .faq-h1,
         .rates-h1 {
-            font-size: 32px;
+            font-size: 36px;
             padding: 20px 10px;
         }
 
@@ -967,12 +985,26 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
             background-size: cover;
         }
 
-          {
+        .faq-intro {
+            font-size: 24px;
+        }
+        .faq, 
+        .hover-text {
+            font-size: 18px;
+        }
+
+        .faq-question-box.one, .three, .five, .seven  {
             float: left;
             width: 50%;
         }
 
+        .faq-question-box.two, .four, .six, .eight {
+            float: right;
+            width: 50%;
+        }
+
         .FAQ-bottom-img {
+            clear: both;
             width: 100%;
             height: 800px;
             background: url(../images/IMG_1768.JPG) fixed no-repeat center;
