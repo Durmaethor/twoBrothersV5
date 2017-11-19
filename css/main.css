@@ -947,6 +947,32 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
             background-size: cover;
         }
 
+        .rates-header {
+            width: 100%;
+            height: 750px;
+            background: url(../images/LakeClean.JPG) fixed no-repeat center;
+            background-size: cover;
+        }
+
+        .faq-h1,
+        .rates-h1 {
+            font-size: 32px;
+        }
+
+        .FAQ-header {
+            width: 100%;
+            height: 800px;
+            background: url(../images/IMG_1699.JPG) fixed no-repeat center;
+            background-size: cover;
+        }
+
+        .FAQ-bottom-img {
+            width: 100%;
+            height: 800px;
+            background: url(../images/IMG_1768.JPG) fixed no-repeat center;
+            background-size: cover;
+        }
+
 }
 
 @media (min-width: 1400px) {
